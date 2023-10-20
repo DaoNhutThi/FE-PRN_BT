@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="/PRN_FE-main/FE/category/category.css">
+  <link rel="stylesheet" href="/category/category.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -19,7 +19,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light primary-gray">
     <div class="container-fluid">
-      <img class="nav-logo w-5 h-5 col-ms-1" src="/PRN_FE-main/FE/img/logo-dark.png" alt="logo">
+      <img class="nav-logo w-5 h-5 col-ms-1" src="/img/logo-dark.png" alt="logo">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,14 +31,14 @@
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Genres
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <!-- <li><a class="dropdown-item" href="#">Genres</a></li> -->
-              <li><a class="dropdown-item" href="#">List</a></li>
-              <li><a class="dropdown-item" href="#">Hot</a></li>
-              <li><a class="dropdown-item" href="#">History</a></li>
+              <li><a class="dropdown-item text-light" href="#">List</a></li>
+              <li><a class="dropdown-item text-light" href="#">Hot</a></li>
+              <li><a class="dropdown-item text-light" href="#">History</a></li>
             </ul>
           </li>
           <!-- <li class="nav-item">
@@ -47,24 +47,24 @@
         </ul>
         <form class="d-flex col-4">
           <input class="form-control me-2 justify-content-md-center" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-warning justify-content-md-end" type="submit">Search</button>
+          <button class="btn btn-warning justify-content-md-end text-light" type="submit">Search</button>
         </form>
       </div>
     </div>
     <div class="d-md-flex justify-content-md-end">
-      <button class="btn btn-warning me-4 col-6" type="button">Sign In</button>
-      <button class="btn btn-warning me-4 col-6" type="button">Sign Up</button>
+      <button class="btn btn-warning me-4 col-6 text-light" type="button">Sign In</button>
+      <button class="btn btn-warning me-4 col-6 text-light" type="button">Sign Up</button>
     </div>
   </nav>
   <main>
     <!-- card -->
-    <div class="container mt-5">
-      <h1>HOT</h1>
+    <div class="container mt-5 mb-5">
+      <h1>HOT <i class="fa-solid fa-chevron-right"></i></h1>
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card">
             <div class="card-body">
-              <img src="/PRN_FE-main/FE/img/logo-dark.png" class="w-100" alt="">
+              <img src="/img/logo-dark.png" class="w-100" alt="">
               <a href="#" class="card-link">Column1</a>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -74,7 +74,7 @@
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card">
             <div class="card-body">
-              <img src="/PRN_FE-main/FE/img/logo-dark.png" class="w-100" alt="">
+              <img src="/img/logo-dark.png" class="w-100" alt="">
               <a href="#" class="card-link">Column1</a>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -84,7 +84,7 @@
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card">
             <div class="card-body">
-              <img src="/PRN_FE-main/FE/img/logo-dark.png" class="w-100" alt="">
+              <img src="/img/logo-dark.png" class="w-100" alt="">
               <a href="#" class="card-link">Column1</a>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -94,19 +94,19 @@
         <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
           <div class="card">
             <div class="card-body">
-              <img src="/PRN_FE-main/FE/img/logo-dark.png" class="w-100" alt="">
+              <img src="/img/logo-dark.png" class="w-100" alt="">
               <a href="#" class="card-link">Column1</a>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
           </div>
         </div>
-        <h1>NEW</h1>
+        <h1>NEW <i class="fa-solid fa-chevron-right"></i></h1>
 
         <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
           <div class="card">
             <div class="card-body">
-              <img src="/PRN_FE-main/FE/img/logo-dark.png" class="w-100" alt="">
+              <img src="/img/logo-dark.png" class="w-100" alt="">
               <a href="#" class="card-link">Column1</a>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -116,7 +116,7 @@
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card">
             <div class="card-body">
-              <img src="/PRN_FE-main/FE/img/logo-dark.png" class="w-100" alt="">
+              <img src="/img/logo-dark.png" class="w-100" alt="">
               <a href="#" class="card-link">Column1</a>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -126,7 +126,7 @@
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card">
             <div class="card-body">
-              <img src="/PRN_FE-main/FE/img/logo-dark.png" class="w-100" alt="">
+              <img src="/img/logo-dark.png" class="w-100" alt="">
               <a href="#" class="card-link">Column1</a>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -136,28 +136,18 @@
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card">
             <div class="card-body">
-              <img src="/PRN_FE-main/FE/img/logo-dark.png" class="w-100" alt="">
+              <img src="/img/logo-dark.png" class="w-100" alt="">
               <a href="#" class="card-link">Column1</a>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
           </div>
         </div>
-        <h1>POPULAR</h1>
+        <h1>POPULAR <i class="fa-solid fa-chevron-right"></i></h1>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card">
             <div class="card-body">
-              <img src="/PRN_FE-main/FE/img/logo-dark.png" class="w-100" alt="">
-              <a href="#" class="card-link">Column1</a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <img src="/PRN_FE-main/FE/img/logo-dark.png" class="w-100" alt="">
+              <img src="/img/logo-dark.png" class="w-100" alt="">
               <a href="#" class="card-link">Column1</a>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -167,7 +157,7 @@
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card">
             <div class="card-body">
-              <img src="/PRN_FE-main/FE/img/logo-dark.png" class="w-100" alt="">
+              <img src="/img/logo-dark.png" class="w-100" alt="">
               <a href="#" class="card-link">Column1</a>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -177,7 +167,17 @@
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card">
             <div class="card-body">
-              <img src="/PRN_FE-main/FE/img/logo-dark.png" class="w-100" alt="">
+              <img src="/img/logo-dark.png" class="w-100" alt="">
+              <a href="#" class="card-link">Column1</a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="/img/logo-dark.png" class="w-100" alt="">
               <a href="#" class="card-link">Column1</a>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
